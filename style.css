@@ -1,0 +1,363 @@
+body{
+    background-color: #1f242d;
+    
+}
+
+.logo {
+    text-align:left;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:600;
+    font-size: 2.5rem;
+    color:white;
+    margin-left:20px;
+
+}
+
+header{
+    
+    top:0;
+    width:100%;
+    padding:2rem 9%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    z-index: 100;
+    margin-bottom:20px;
+    
+}
+
+nav{
+    display :block;
+    text-align:center;
+    width:100%;
+    justify-content:space-evenly;
+    
+}
+
+
+
+.navbar a{   
+    font-size:1.5rem;
+    margin-left:4rem;
+    /* margin left sets left side of that navbar a  margin elements to r times the font  */
+    transition:0.3s;
+    color:aqua;
+    text-decoration:none; 
+    
+    
+    /* removes underline of href elements */
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    color:white;
+    text-align:left;
+    justify-content:center;
+    margin-top:10px;
+    display:block;
+    padding-left:30px;
+    
+    
+}
+
+
+
+.home-content{
+    flex:1;
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;
+    
+    
+}
+
+.image-container{
+    flex:1;
+}
+
+h3{
+    text-align:left;
+    padding-left:30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight:800;
+    color:white;
+    margin-bottom:15px;
+}
+
+span{
+    color:aqua;
+    font-weight:bold;
+    font-size:3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size:x-large;
+    font-weight:900;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    padding-left:30px;
+}
+
+.flex-cont{
+    display:flex;
+    gap: 15rem;
+    margin-top:45px;
+ 
+}
+
+img{
+    height:250px;
+    width:250px;
+    border-radius:50%;
+    margin-top:2px;
+    padding-left:30px;
+}
+
+.social-media{
+    display:flex;
+    gap:0;
+}
+
+svg{
+    flex:1;
+    color:aqua;
+    padding-left: 30px;
+    margin-top:15px;
+    height:40px;
+    width:40px;
+    margin-right:10px;
+    
+}
+
+.about-content{
+    display:flex;
+    gap:2rem;
+    margin-top:45px;
+
+}
+.flex2{
+    flex:1;
+}
+
+.text{
+    flex:1;
+}
+
+.flex2>img{
+    height:400px;
+    width:400px;
+    border-radius:50%;
+}
+
+.text>p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    font-weight: 600;
+    margin-right:30px;
+}
+
+.btn {
+    color:black;
+    background-color: aqua;
+    border-radius:60px;
+    font-size:medium;
+    box-shadow: 0 0 1rem;
+    margin-top:20px;
+}
+
+.skills-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    gap:5rem;
+    transition:white 0.3s ease;
+    margin-top:30px;
+
+    
+}
+
+.skills-content:hover{
+    animation:blink 1s infinite;
+}
+
+.box1{
+    flex:1;
+    align-items:center;
+    justify-content:center;
+    margin-left:40px;
+    border:2px solid aqua;
+    border-left:6px;
+    
+
+
+    
+   
+}
+.box2{
+    flex:1;
+    text-align:center;
+    border:2px solid aqua;
+
+    
+}
+.box3{
+    flex:1;
+    text-align:center;
+    margin-right:40px;
+    border:2px solid aqua;
+    border-right:6px;
+
+    
+}
+
+.h1{
+    text-align:center;
+    margin-top:40px;
+    font-size:2.5rem;
+}
+
+.h1>span{
+    font-size:2.5rem;
+}
+h2{
+    color:white;
+
+}
+.skills-content>p{
+    color:white;
+
+}
+
+.box1>p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    justify-content:center;
+    align-items:center;
+    padding-left:0px;
+    margin-top:30px;
+    font-weight:300;
+}
+
+.box2>p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    justify-content:center;
+    align-items:center;
+    padding-left:0px;
+    margin-top:30px;
+    font-weight:300;
+}
+
+.box3>p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    justify-content:center;
+    align-items:center;
+    padding-left:0px;
+    margin-top:30px;
+    font-weight:300;
+}
+
+.box1 > h2{
+    color:aqua;
+}
+.box2 > h2{
+    color:aqua;
+}
+.box3 > h2{
+    color:aqua;
+}
+
+.proj{
+    color:aqua;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.photos{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:4rem;
+    margin-top:5rem;
+}
+
+.images{
+    height:300px;
+    width:400px;
+    border-radius:0%;
+}
+
+h5{
+    text-align:center;
+    color:yellowgreen;
+    font-size:large;
+    margin-top:25px;
+    margin-bottom:40px;
+}
+
+.contact{
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:25px;
+
+}
+
+.contact>h2{
+    font-size:xx-large;
+    
+    
+}
+.span{
+    font-size:xx-large;
+}
+
+.info{
+    display:grid;
+    grid-template-rows:50px 50px;
+    grid-template-columns:700px 700px;
+    grid-row-gap:10px;
+    grid-column-gap:20px;
+    justify-content:center;
+    padding-left:20px;
+    padding-right:20px;
+    margin-top:30px;
+    
+}
+
+input{
+    color:lightyellow;
+    text-align:left;
+    background-color: #323946;
+    
+}
+
+footer{
+background-color: #323946;
+text-align:center;
+margin-top:70px;
+height:55px;
+width:100%;
+
+}
+
